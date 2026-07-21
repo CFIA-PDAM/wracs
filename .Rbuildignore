@@ -1,6 +1,9 @@
-^climateSuitabilityWRA\.Rproj$
+^wracs\.Rproj$
 ^\.Rproj\.user$
 ^LICENSE\.md$
 ^README\.Rmd$
 ^cran-comments\.md$
 ^\.github$
+^\.vscode$
+^air\.toml$
+^data-raw$

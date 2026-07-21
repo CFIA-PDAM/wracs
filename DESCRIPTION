@@ -1,24 +1,28 @@
-Package: climateSuitabilityWRA
-Title: Assessing climatic suitability for weed risk assessments
+Package: wracs
+Title: Assessing Climatic Suitability for Weed Risk Assessments
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Josh", "Persi", , "josh.persi@inspection.gc.ca", role = c("aut", "cre")),
-    person("Megan", "Abergel", "megan.abergel@inspection.gc.ca", role = "aut")
+    person(given = "Josh", family = "Persi", email = "josh.persi@inspection.gc.ca", role = c("aut", "cre")),
+    person(given = "Megan", family = "Abergel", email = "megan.abergel@inspection.gc.ca", role = "aut")
   )
 Description: Assess the climatic suitability of a weed species within North America on the basis of Koppen-Geiger classes, Plant Hardiness zones, and Precipitation Bands.   
-License: MIT
+License: MIT + file LICENSE
 Suggests: 
+    readr,
     rgbif,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
 Depends: 
-    R (>= 3.5)
+    R (>= 4.1.0)
 LazyData: true
 Imports: 
     cli,
     dplyr,
+    fs,
     rlang,
-    stringr
+    stringr,
+    withr,
+    zen4R
+Config/roxygen2/version: 8.0.0
