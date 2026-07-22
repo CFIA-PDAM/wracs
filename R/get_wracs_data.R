@@ -4,7 +4,7 @@ get_wracs_data <- function(
 ) {
   cl <- parallel::makeCluster(4)
 
-  parallel::clusterExport(cl, varlist = base::c(wracs_data_dir))
+  parallel::clusterExport(cl, varlist = base::c("wracs_data_dir"))
 
   withr::defer(parallel::stopCluster(cl))
 
