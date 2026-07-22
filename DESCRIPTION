@@ -22,6 +22,7 @@ Imports:
     dplyr,
     fs,
     glue,
+    parallel,
     rlang,
     stringr,
     terra,
