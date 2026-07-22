@@ -8,6 +8,13 @@
 \description{
 Assess the climatic suitability of a weed species within North America on the basis of Koppen-Geiger classes, Plant Hardiness zones, and Precipitation Bands.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://cfia-pdam.github.io/wracs/}
+}
+
+}
 \author{
 \strong{Maintainer}: Josh Persi \email{josh.persi@inspection.gc.ca}
 

@@ -10,4 +10,14 @@ bryonia_alba <- rgbif::occ_download_get(
 
 bryonia_alba <- rgbif::occ_download_import(bryonia_alba)
 
-usethis::use_data(bryonia_alba)
+bryonia_alba <- dplyr::select(
+  bryonia_alba,
+  datasetName,
+  decimalLatitude,
+  decimalLongitude,
+  habitat,
+  locality,
+  year
+)
+
+usethis::use_data(bryonia_alba, overwrite = TRUE)

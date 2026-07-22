@@ -1,4 +1,4 @@
-df <- add_qc_codes(bryonia_alba)
+df <- add_quality_control_flags(bryonia_alba)
 
 testthat::test_that("the number of rows is unchanged", {
   testthat::expect_equal(base::nrow(df), base::nrow(bryonia_alba))
