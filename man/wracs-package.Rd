@@ -26,5 +26,10 @@ Authors:
   \item Megan Abergel \email{megan.abergel@inspection.gc.ca} (\href{https://orcid.org/0000-0002-0681-1889}{ORCID})
 }
 
+Other contributors:
+\itemize{
+  \item Canadian Food Inspection Agency [copyright holder, funder]
+}
+
 }
 \keyword{internal}
