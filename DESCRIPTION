@@ -5,7 +5,9 @@ Authors@R: c(
     person(given = "Josh", family = "Persi", email = "josh.persi@inspection.gc.ca", role = c("aut", "cre")),
     person(given = "Megan", family = "Abergel", email = "megan.abergel@inspection.gc.ca", role = "aut")
   )
-Description: Assess the climatic suitability of a weed species within North America on the basis of Koppen-Geiger classes, Plant Hardiness zones, and Precipitation Bands.   
+Description: Assess the climatic suitability of a weed species within North 
+    America on the basis of Koppen-Geiger classes, Plant Hardiness zones, and 
+    Precipitation Bands.   
 License: MIT + file LICENSE
 Suggests: 
     readr,
