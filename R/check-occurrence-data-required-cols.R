@@ -1,5 +1,7 @@
 #' Check if the GBIF occurrence data has the required columns
 #'
+#' `r lifecycle::badge('experimental')`
+#'
 #' An internal helper to check if the GBIF occurrence data has the required
 #' columns
 #'

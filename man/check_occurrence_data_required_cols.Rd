@@ -14,6 +14,9 @@ returns invsibily if all required columns are present. If not, an
 error is raised.
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+}
+\details{
 An internal helper to check if the GBIF occurrence data has the required
 columns
 }

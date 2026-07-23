@@ -14,6 +14,9 @@ a data frame with eight additional columns corresponding to the
 different quality control flags
 }
 \description{
+\ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
+}
+\details{
 Check each GBIF occurrence record (i.e. row) for common quality control
 concerns and assign records that exhibit a particular quality concern \code{TRUE}
 for the given column, else \code{FALSE}.

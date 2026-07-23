@@ -1,5 +1,7 @@
 #' Add climate data covariates
 #'
+#' `r lifecycle::badge('experimental')`
+#'
 #' @param gbif_occurrence_data a dataframe of GBIF occurrence data
 #'
 #' @param covariate_raster a terra raster object of covariate data

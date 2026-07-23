@@ -1,5 +1,7 @@
 #' Add quality control flags to each GBIF occurrence record
 #'
+#' `r lifecycle::badge('experimental')`
+#'
 #' Check each GBIF occurrence record (i.e. row) for common quality control
 #' concerns and assign records that exhibit a particular quality concern `TRUE`
 #' for the given column, else `FALSE`.

@@ -4,24 +4,26 @@
 \name{wracs-package}
 \alias{wracs}
 \alias{wracs-package}
-\title{wracs: Assessing Climatic Suitability for Weed Risk Assessments}
+\title{wracs: Weed Risk Assessments using Climate Suitability Analysis}
 \description{
-Assess the climatic suitability of a weed species within North America on the basis of Koppen-Geiger classes, Plant Hardiness zones, and Precipitation Bands.
+Assess the climatic suitability of a weed species within North America on the basis of Koppen-Geiger classes, plant hardiness zones, and precipitation bands.
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://cfia-pdam.github.io/wracs/}
+  \item \url{https://github.com/CFIA-PDAM/wracs}
+  \item Report bugs at \url{https://github.com/CFIA-PDAM/wracs/issues}
 }
 
 }
 \author{
-\strong{Maintainer}: Josh Persi \email{josh.persi@inspection.gc.ca}
+\strong{Maintainer}: Josh Persi \email{josh.persi@inspection.gc.ca} (\href{https://orcid.org/0000-0002-2700-6483}{ORCID})
 
 Authors:
 \itemize{
-  \item Josh Persi \email{josh.persi@inspection.gc.ca}
-  \item Megan Abergel \email{megan.abergel@inspection.gc.ca}
+  \item Josh Persi \email{josh.persi@inspection.gc.ca} (\href{https://orcid.org/0000-0002-2700-6483}{ORCID})
+  \item Megan Abergel \email{megan.abergel@inspection.gc.ca} (\href{https://orcid.org/0000-0002-0681-1889}{ORCID})
 }
 
 }
