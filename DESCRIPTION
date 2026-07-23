@@ -2,35 +2,20 @@ Package: wracs
 Title: Weed Risk Assessments using Climate Suitability Analysis
 Version: 0.0.0.9000
 Authors@R: c(
-    person(
-        given = "Josh", 
-        family = "Persi", 
-        email = "josh.persi@inspection.gc.ca", 
-        role = c("aut", "cre"),
-        comment = c(ORCID = "0000-0002-2700-6483")
-    ),
-    person(
-        given = "Megan", 
-        family = "Abergel", 
-        email = "megan.abergel@inspection.gc.ca",
-        role = "aut",
-        comment = c(ORCID = "0000-0002-0681-1889")
-    )
+    person("Josh", "Persi", , "josh.persi@inspection.gc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-2700-6483")),
+    person("Megan", "Abergel", , "megan.abergel@inspection.gc.ca", role = "aut",
+           comment = c(ORCID = "0000-0002-0681-1889"))
   )
-Description: Assess the climatic suitability of a weed species within North 
-    America on the basis of Koppen-Geiger classes, plant hardiness zones, and 
-    precipitation bands.   
+Description: Assess the climatic suitability of a weed species within
+    North America on the basis of Koppen-Geiger classes, plant hardiness
+    zones, and precipitation bands.
 License: MIT + file LICENSE
-Suggests: 
-    readr,
-    rgbif,
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
-Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
+URL: https://cfia-pdam.github.io/wracs/,
+    https://github.com/CFIA-PDAM/wracs
+BugReports: https://github.com/CFIA-PDAM/wracs/issues
 Depends: 
     R (>= 4.1.0)
-LazyData: true
 Imports: 
     cli,
     dplyr,
@@ -42,6 +27,12 @@ Imports:
     terra,
     withr,
     zen4R
+Suggests: 
+    readr,
+    rgbif,
+    testthat (>= 3.0.0)
 Config/roxygen2/version: 8.0.0
-URL: https://cfia-pdam.github.io/wracs/, https://github.com/CFIA-PDAM/wracs
-BugReports: https://github.com/CFIA-PDAM/wracs/issues
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
