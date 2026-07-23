@@ -1,0 +1,14 @@
+# wracs
+
+# Package index
+
+## All functions
+
+- [`add_covariates()`](https://cfia-pdam.github.io/wracs/reference/add_covariates.md)
+  **\[experimental\]** : Add climate data covariates
+- [`add_quality_control_flags()`](https://cfia-pdam.github.io/wracs/reference/add_quality_control_flags.md)
+  **\[experimental\]** : Add quality control flags to each GBIF
+  occurrence record
+- [`bryonia_alba`](https://cfia-pdam.github.io/wracs/reference/bryonia_alba.md)
+  : GBIF occurrence data for Bryonia alba
+
