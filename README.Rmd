@@ -1,12 +1,23 @@
+---
+output: github_document
+---
 
 <!-- badges: start -->
-
 [![Codecov test coverage](https://codecov.io/gh/CFIA-PDAM/climateSuitabilityWRA/graph/badge.svg)](https://app.codecov.io/gh/CFIA-PDAM/climateSuitabilityWRA)
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 [![R-CMD-check](https://github.com/CFIA-PDAM/climateSuitabilityWRA/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CFIA-PDAM/climateSuitabilityWRA/actions/workflows/R-CMD-check.yaml)
-
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+options(tibble.print_min = 5, tibble.print_max = 5)
+```
 
 # wracs
