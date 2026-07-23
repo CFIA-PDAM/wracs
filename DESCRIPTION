@@ -1,5 +1,5 @@
 Package: wracs
-Title: Assessing Climatic Suitability for Weed Risk Assessments
+Title: Weed Risk Assessments using Climate Suitability Analysis
 Version: 0.0.0.9000
 Authors@R: c(
     person(given = "Josh", family = "Persi", email = "josh.persi@inspection.gc.ca", role = c("aut", "cre")),
