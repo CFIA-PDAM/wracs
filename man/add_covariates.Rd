@@ -9,7 +9,7 @@ add_covariates(gbif_occurrence_data = NULL, covariate_raster = NULL)
 \arguments{
 \item{gbif_occurrence_data}{a dataframe of GBIF occurrence data}
 
-\item{covariate_file}{a terra raster object of covariate data}
+\item{covariate_raster}{a terra raster object of covariate data}
 }
 \description{
 Add climate data covariates
