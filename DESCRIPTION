@@ -43,4 +43,5 @@ Imports:
     withr,
     zen4R
 Config/roxygen2/version: 8.0.0
-URL: https://cfia-pdam.github.io/wracs/
+URL: https://cfia-pdam.github.io/wracs/, https://github.com/CFIA-PDAM/wracs
+BugReports: https://github.com/CFIA-PDAM/wracs/issues
