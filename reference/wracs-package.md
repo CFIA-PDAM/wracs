@@ -26,3 +26,7 @@ Authors:
 
 - Megan Abergel <megan.abergel@inspection.gc.ca>
   ([ORCID](https://orcid.org/0000-0002-0681-1889))
+
+Other contributors:
+
+- Canadian Food Inspection Agency \[copyright holder, funder\]

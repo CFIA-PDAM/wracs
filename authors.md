@@ -2,6 +2,8 @@
 
 ## Authors
 
+- **Canadian Food Inspection Agency**. Copyright holder, funder.
+
 - **Josh Persi**. Author, maintainer.
   [](https://orcid.org/0000-0002-2700-6483)
 
