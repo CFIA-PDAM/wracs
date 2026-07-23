@@ -2,12 +2,24 @@ Package: wracs
 Title: Weed Risk Assessments using Climate Suitability Analysis
 Version: 0.0.0.9000
 Authors@R: c(
-    person(given = "Josh", family = "Persi", email = "josh.persi@inspection.gc.ca", role = c("aut", "cre")),
-    person(given = "Megan", family = "Abergel", email = "megan.abergel@inspection.gc.ca", role = "aut")
+    person(
+        given = "Josh", 
+        family = "Persi", 
+        email = "josh.persi@inspection.gc.ca", 
+        role = c("aut", "cre"),
+        comment = c(ORCID = "0000-0002-2700-6483")
+    ),
+    person(
+        given = "Megan", 
+        family = "Abergel", 
+        email = "megan.abergel@inspection.gc.ca",
+        role = "aut",
+        comment = c(ORCID = "0000-0002-0681-1889")
+    )
   )
 Description: Assess the climatic suitability of a weed species within North 
-    America on the basis of Koppen-Geiger classes, Plant Hardiness zones, and 
-    Precipitation Bands.   
+    America on the basis of Koppen-Geiger classes, plant hardiness zones, and 
+    precipitation bands.   
 License: MIT + file LICENSE
 Suggests: 
     readr,
