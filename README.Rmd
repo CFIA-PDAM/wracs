@@ -3,8 +3,8 @@ output: github_document
 ---
 
 <!-- badges: start -->
-[![Codecov test coverage](https://codecov.io/gh/CFIA-PDAM/climateSuitabilityWRA/graph/badge.svg)](https://app.codecov.io/gh/CFIA-PDAM/climateSuitabilityWRA)
-[![R-CMD-check](https://github.com/CFIA-PDAM/climateSuitabilityWRA/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CFIA-PDAM/climateSuitabilityWRA/actions/workflows/R-CMD-check.yaml)
+[![Codecov test coverage](https://codecov.io/gh/CFIA-PDAM/wracs/graph/badge.svg)](https://app.codecov.io/gh/CFIA-PDAM/wracs)
+[![R-CMD-check](https://github.com/CFIA-PDAM/wracs/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CFIA-PDAM/wracs/actions/workflows/R-CMD-check.yaml)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
